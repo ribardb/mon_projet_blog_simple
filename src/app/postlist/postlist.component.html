@@ -1,0 +1,3 @@
+<div class="list-group">
+  <app-postlistitem *ngFor="let post of postArray" [postTitle] = "post.title" [postContent]= "post.content" [postDate] = "post.created_at" [postLoveIts] = "post.loveIts"></app-postlistitem>
+</div>
